@@ -8,7 +8,9 @@
 <title>Affichage livres</title>
 </head>
 <body>
-<table><% List<Book> listBook = Library.getAll(); %>
+<table><% List<Book> listBook = Library.getAll();
+for (Book book : listBook){
+%>
 <tr> </tr>
 
 
