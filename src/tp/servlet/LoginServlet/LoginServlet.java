@@ -30,6 +30,7 @@ public class LoginServlet extends GenericTPServlet {
 			res.sendRedirect("../private/home.jsp");
 		}
 		else {
+			req.getSession().setAttribute("ERROR", "Mot de passe faux");
 			res.sendRedirect("../public/login.jsp");
 		}
 	}
