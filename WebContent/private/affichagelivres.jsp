@@ -22,8 +22,7 @@
 			%>
 		
 		<tr>
-			<td>
-					<a href="./detailsbook.jsp?bookid=<%=book.getId()%>"><%=book.getId()%></td>
+			<td><a href="./detailsbook.jsp?bookid=<%=book.getId()%>"><%=book.getId()%></td>
 			<td><%=book.getTitle()%></td>
 			<td><%=book.getNbPages()%></td>
 		</tr>
